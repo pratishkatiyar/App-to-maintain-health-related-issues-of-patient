@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  data-testid="notFound-1"
+>
+  <div
+    data-testid="navbar-1"
+  >
+    <nav>
+      <div
+        className="logo"
+      >
+        <p>
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </p>
+      </div>
+      <div
+        className="logo"
+      >
+        Patient Registration App
+      </div>
+      <div />
+    </nav>
+  </div>
+  <h1>
+    404 error
+    <br />
+    Page not found.
+    <br />
+  </h1>
+</div>
+`;

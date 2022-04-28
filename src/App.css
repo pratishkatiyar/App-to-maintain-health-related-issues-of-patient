@@ -1,0 +1,253 @@
+.App {
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+  height: 100vh;
+}
+body{
+  background-color: #E8F1F3;
+}
+nav{
+  background: #1A2634;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+
+}
+.dashboard ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashButton {
+  padding: 2px;
+  
+  margin-top: 5%;
+  margin-right: 7%;
+  margin-left: 7%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.dashButton p{
+  border: 2px solid ;
+  border-color: #0e151d;
+  margin-top: 5%;
+  margin-right: 7%;
+  margin-left: 7%;
+  border-style: solid;
+  background-color: #0e151d;
+}
+
+.dashdiv{
+  margin-top: 100px;
+}
+
+.patient{
+  margin-top: 200px;
+}
+.logo{
+  font-weight: 550;
+  font-size: 100%;
+  margin: 0px 13px;
+  color: #fff;
+
+}
+.physician{
+  font-weight: 400;
+  font-size: 100%;
+  color: #414D57;
+
+}
+.phy-body{
+  display: flex;
+  padding:10% 35%;
+}
+nav li{
+  display: inline-block;
+  margin: 0 20px;
+
+}
+nav a{
+  text-decoration: none;
+  color: #0e151d;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: #fff;
+  transition: all ease-in-out 0.2s;
+
+}
+a{
+  text-decoration: none;
+  color: #0e151d;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all ease-in-out 0.2s;
+
+}
+nav a:hover{
+  background: rgb(166, 175, 255);
+  transition: all ease-in-out 0.2s;
+}
+footer{
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  font-size: 12px;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  background: #0e151d;
+}
+.component{
+  width: 80%;
+  margin: 50px auto;
+}
+.component p{
+  line-height: 28px;
+}
+
+ nav .active{
+  background: #5855F3;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+
+
+.search-box{
+  width: 100%;
+  position: relative;
+  display: flex;
+
+}
+.search-input{
+  width: 100%;
+  padding: 10px;
+  border: 4px solid #0e151d;
+  border-radius:10px 0 0 10px ;
+  border-right: none;
+  outline: none;
+  font-size: 20px;
+  color: tomato;
+  background: none;
+}
+.search-button{
+text-align: center;
+height: 51px;
+width: 40px;
+outline: none;
+cursor: pointer;
+border: 4px solid #0e151d;
+border-radius: 0 10px 10px 0 ;
+border-left: none;
+background: none;
+font-size: 20px;
+border-left: 4px solid #0e151d;
+
+
+}
+.container{
+  width: 30%;
+  position: absolute;
+  left: 53%;
+  top: 30%;
+  transform: translate(-50% , -50%);
+}
+
+.genderCSS{
+  width: 80%;
+}
+
+.mydiv{
+  padding-top: 5%;
+  justify-content: space-between;
+}
+
+
+.button-18 {
+  align-items: center;
+  background-color: #1A2634;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus { 
+  background-color: #1A2634;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+.button-19 {
+  align-items: center;
+  background-color: #32475d;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #fdfcfc;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+table, th, td, tr {
+  border: solid black;
+  border-collapse: collapse;
+  border-style: solid;
+}

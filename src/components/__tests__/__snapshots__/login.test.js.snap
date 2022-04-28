@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  data-testid="login-1"
+>
+  <div
+    data-testid="navbar-1"
+  >
+    <nav>
+      <div
+        className="logo"
+      >
+        <p>
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </p>
+      </div>
+      <div
+        className="logo"
+      >
+        Patient Registration App
+      </div>
+      <div />
+    </nav>
+  </div>
+  <div
+    className="dashdiv"
+  >
+    <form
+      action=""
+      onSubmit={[Function]}
+    >
+      <label>
+        <b>
+          Physician ID: 
+        </b>
+      </label>
+      <input
+        name="physicianID"
+        onChange={[Function]}
+        placeholder="Physician ID.."
+        type="text"
+        value=""
+      />
+      <br />
+      <br />
+      <label>
+        <b>
+          Password: 
+        </b>
+      </label>
+      <input
+        name="password"
+        onChange={[Function]}
+        placeholder="Password.."
+        type="Password"
+        value=""
+      />
+      <br />
+      <br />
+      <input
+        onChange={[Function]}
+        type="submit"
+        value="Login"
+      />
+    </form>
+  </div>
+</div>
+`;

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  data-testid="sessionExpired-1"
+>
+  <div
+    data-testid="navbar-1"
+  >
+    <nav>
+      <div
+        className="logo"
+      >
+        <p>
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </p>
+      </div>
+      <div
+        className="logo"
+      >
+        Patient Registration App
+      </div>
+      <div />
+    </nav>
+  </div>
+  <h1>
+    Session Expired.
+  </h1>
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    <button
+      className="button-19"
+    >
+      Login Again
+    </button>
+  </a>
+</div>
+`;

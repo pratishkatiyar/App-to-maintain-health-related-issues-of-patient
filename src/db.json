@@ -1,0 +1,132 @@
+{
+  "physicians": [
+    {
+      "physicianID": 1110010,
+      "password": "p1110010"
+    },
+    {
+      "physicianID": 1110011,
+      "password": "p1110011"
+    },
+    {
+      "physicianID": 1110012,
+      "password": "p1110012"
+    },
+    {
+      "physicianID": 1110013,
+      "password": "p1110013"
+    }
+  ],
+  "patients": [
+    {
+      "id": 2220020,
+      "name": "random name1",
+      "age": 24,
+      "gender": "Male",
+      "contact": 9876543210,
+      "height": 180,
+      "weight": 65,
+      "bmi": 20.1,
+      "body_type": "Normal Weight",
+      "disease": "diabetes",
+      "pdisease": "None",
+      "disabilities": "By Accident"
+    },
+    {
+      "id": 1645585580561,
+      "name": "random name2",
+      "age": 25,
+      "gender": "Female",
+      "contact": 9876543211,
+      "height": 170,
+      "weight": 60,
+      "bmi": 20.8,
+      "body_type": "Normal Weight",
+      "disease": "Blood Pressure",
+      "pdisease": "asthma",
+      "disabilities": "By Birth"
+    },
+    {
+      "id": 1645585580562,
+      "name": "random name3",
+      "contact": 9876543212,
+      "age": 25,
+      "gender": "Male",
+      "height": 170,
+      "weight": 60,
+      "bmi": 20.8,
+      "body_type": "Normal Weight",
+      "disease": "Blood Pressure",
+      "pdisease": "longsightedness",
+      "disabilities": "By Birth"
+    },
+    {
+      "id": 1645585580563,
+      "name": "dummy name",
+      "age": "47",
+      "gender": "Male",
+      "height": "181",
+      "weight": "67",
+      "disease": "Headache",
+      "pdisease": "Knee pain",
+      "disabilities": "None",
+      "body_type": "Normal Weight",
+      "bmi": "20.45",
+      "contact": 9876543213
+    },
+    {
+      "id": 1645600392286,
+      "name": "Dummy namez",
+      "age": "48",
+      "gender": "Male",
+      "height": "187",
+      "weight": "67",
+      "disease": "",
+      "pdisease": "",
+      "disabilities": "",
+      "body_type": "Normal Weight",
+      "bmi": "19.16",
+      "contact": 9876543222
+    },
+    {
+      "id": 1645600459393,
+      "name": "Dummy Names",
+      "age": "57",
+      "gender": "Male",
+      "height": "178",
+      "weight": "60",
+      "disease": "headache",
+      "pdisease": "knee pain",
+      "disabilities": "By Birth",
+      "body_type": "Normal Weight",
+      "bmi": "18.94",
+      "contact": 9876543234
+    }
+  ],
+  "prescriptions": [
+    {
+      "prid": "17_12_2021_14318",
+      "id": 9876543210,
+      "start_date": "2021-12-17",
+      "disease": "diabetes",
+      "drug": "amlodipine",
+      "duration": 12,
+      "frequency": 1,
+      "dose": "50 mg",
+      "when": "before the meal",
+      "end_date": "2021-12-29"
+    },
+    {
+      "prid": "01_20_2022_34356",
+      "id": 9876543211,
+      "start_date": "2022-01-20",
+      "disease": "Blood Pressure",
+      "drug": "nicardipine ",
+      "duration": "7",
+      "frequency": "1",
+      "dose": "150 mg",
+      "when": "Before Meal",
+      "end_date": "2022-01-27"
+    }
+  ]
+}
